@@ -1,0 +1,140 @@
+form {
+  display: block;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+legend {
+  font-weight: bold;
+  color: #1c4587;
+  padding: 0 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+fieldset label input[type="radio"] {
+  margin-left: 10px;
+}
+
+button[type="submit"] {
+  background-color: #1c4587;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #153666;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+.support-form {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #f9f9fb;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  .support-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #3f51b5;
+  }
+
+  .support-form .form-group {
+    margin-bottom: 20px;
+  }
+
+  .support-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .support-form input[type="text"],
+  .support-form input[type="email"],
+  .support-form select,
+  .support-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s;
+  }
+
+  .support-form input:focus,
+  .support-form select:focus,
+  .support-form textarea:focus {
+    outline: none;
+    border-color: #3f51b5;
+  }
+
+  .support-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  .support-form input[type="file"] {
+    margin-top: 10px;
+  }
+
+  .support-form .submit-btn {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+
+  .support-form .submit-btn:hover {
+    background-color: #303f9f;
+  }
+ 
