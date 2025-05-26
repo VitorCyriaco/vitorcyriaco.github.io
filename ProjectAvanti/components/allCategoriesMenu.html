@@ -1,0 +1,39 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <ul class="relative">
+        <li class="group relative">
+          <a class="text-[14px] font-bold flex items-center group-hover:text-blue cursor-pointer">
+            <img class="h-3 mr-1 block group-hover:hidden" src="assets/img/menu-icon-xl.png" alt="menu">
+            <img class="h-3 mr-1 hidden group-hover:block" src="assets/img/menu-icon-xl-blue.png" alt="menu">
+            Todas as Categorias
+          </a>
+      
+          <div class="absolute w-[1000px] left-0 top-full flex bg-white shadow-md z-20 hidden group-hover:flex">
+      
+            <ul id="menu" class="w-60 bg-[#F5F5F5] h-[360px] flex flex-col">
+            </ul>
+
+            <div class="flex absolute w-[236px] h-[298px] top-5 right-5">
+                <img src="../assets/img/menu-banner.png" alt="banner-menu">
+                <h5 class="absolute text-white text-[24px] font-[700] top-11 left-7 w-30 text-sm/7">
+                    Confira os Produtos Que acabaram De chegar</h5>
+                <button
+                    class="border-1 h-8 rounded-lg absolute text-white text-[12px] font-[700] bottom-14 left-7 w-30 text-sm/7">VER
+                    TODOS</button>
+            </div>
+      
+          </div>
+        </li>
+      </ul>
+      
+      <script type="module" src="../script/menu.js"></script>
+</body>
+
+</html>
